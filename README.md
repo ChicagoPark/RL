@@ -14,4 +14,5 @@ reinforcement_learning, deep learning, rl, deepmind
 <!--
 study material
 1. intuition: Reinforcement Learning Series by YouTuber deeplizard.
+2. Handson: https://www.youtube.com/watch?v=NP8pXZdU-5U&list=PLZeihsNsdQdRdhni8U5KIdxsRIicW498s&index=1
 -->
