@@ -6,7 +6,7 @@ reinforcement_learning, deep learning, rl, deepmind
 1. Markov Decision Processes (MDPs)
 2. Policies and Value Functions
 3. Q-Learning
-4. Exploration VS Exloitation
+4. Exploration VS Exploitation
 5. Deep Q-Learning
 ```
 
