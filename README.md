@@ -26,6 +26,12 @@ Optimal action-value function: q*(s, a) # find the maximum value from all the po
 when epsilon is near 0: exploitation
 when epsilon is near 1: exploration
 
+## 5. Deep Q-learning
+
+Image can be the representation of state, but it could be difficult to recognize the situation easily. That's why most cases we put image sequence as an input.
+
+There are output nodes as much as possible actions from the state.
+
 <!--
 next lecture(written 3/14): Exploration vs. Exploitation - Learning the Optimal Reinforcement Learning Policy(https://www.youtube.com/watch?v=mo96Nqlo1L8&list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv&index=7)
 
