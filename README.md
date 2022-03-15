@@ -45,6 +45,8 @@ replay memory
 
 
 <!--
+Blog Spot: https://deeplizard.com/learn/video/nyjbcRQ-uQ8
+
 next lecture(written 3/14): Exploration vs. Exploitation - Learning the Optimal Reinforcement Learning Policy(https://www.youtube.com/watch?v=mo96Nqlo1L8&list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv&index=7)
 
 study material
