@@ -28,11 +28,20 @@ when epsilon is near 1: exploration
 
 ## 5. Deep Q-learning
 
+
+![3 DQN-edited](https://user-images.githubusercontent.com/73331241/158344207-2813e827-77bc-480e-897e-3bf773a88f95.jpeg)
+
 Image can be the representation of state, but it could be difficult to recognize the situation easily. That's why most cases we put image sequence as an input.
 
 There are output nodes as much as possible actions from the state.
 
-![3 DQN-edited](https://user-images.githubusercontent.com/73331241/158344207-2813e827-77bc-480e-897e-3bf773a88f95.jpeg)
+Experience replay: At time t, the agent's experience et is defined as this tuple
+![4  Experience Replay](https://user-images.githubusercontent.com/73331241/158344957-e8d958b4-5ebf-414b-9de8-8e11c89a8324.PNG)
+
+Two Types of Neural Network: 1. 2. target network(get s' as an input)
+
+replay memory
+
 
 
 <!--
