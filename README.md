@@ -55,4 +55,6 @@ study material
 1. intuition: Reinforcement Learning Series by YouTuber deeplizard.
 
 2. Handson: https://www.youtube.com/watch?v=NP8pXZdU-5U&list=PLZeihsNsdQdRdhni8U5KIdxsRIicW498s&index=1
+
+3. RL for trading: https://www.youtube.com/watch?v=3Kqy7HIJiiY&list=PLRoQmvSf6MgwTuiZ8BDVCf8GBQ_Szt6Ci&index=1
 -->
