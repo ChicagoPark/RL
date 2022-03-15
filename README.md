@@ -38,7 +38,7 @@ There are output nodes as much as possible actions from the state.
 Experience replay: At time t, the agent's experience et is defined as this tuple
 ![4  Experience Replay](https://user-images.githubusercontent.com/73331241/158344957-e8d958b4-5ebf-414b-9de8-8e11c89a8324.PNG)
 
-Two Types of Neural Network: 1. 2. target network(get s' as an input)
+Two Types of Neural Network: 1. Policy Network(get s as an input) 2. Target Network(get s' as an input)
 
 replay memory
 
