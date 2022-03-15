@@ -32,6 +32,9 @@ Image can be the representation of state, but it could be difficult to recognize
 
 There are output nodes as much as possible actions from the state.
 
+![3 DQN-edited](https://user-images.githubusercontent.com/73331241/158344207-2813e827-77bc-480e-897e-3bf773a88f95.jpeg)
+
+
 <!--
 next lecture(written 3/14): Exploration vs. Exploitation - Learning the Optimal Reinforcement Learning Policy(https://www.youtube.com/watch?v=mo96Nqlo1L8&list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv&index=7)
 
