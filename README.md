@@ -5,9 +5,10 @@ reinforcement_learning, deep learning, rl, deepmind
 ```bash
 1. Markov Decision Processes (MDPs)
 2. Policies and Value Functions
-3. Q-Learning
-4. Exploration VS Exploitation
-5. Deep Q-Learning
+3. Optimality
+4. Q-Learning
+5. Exploration VS Exploitation
+6. Deep Q-Learning
 ```
 ## 1. Markov Decision Processes (MDPs)
 
