@@ -35,13 +35,20 @@ reinforcement_learning, deep learning, rl, deepmind
 
     * [Cumulative Reward: G - Continuing]
 
-     <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753558-03ea5572-6a5e-4528-b02f-78c7f38d8310.PNG">
+      <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753558-03ea5572-6a5e-4528-b02f-78c7f38d8310.PNG">
 
 ### [1-2] Policies and Value Functions
 
-* Policy: what is the `probability` that an agent will select a specific action from a specific state
+* Policy: a function that maps a given state to probabilities of selecting each possible action from that state. We will use the symbol `π` to denote a policy.
+  * Policy Background: How probable is it for an agent to select any action from a given state?
+  
+     <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158756151-13b03c32-9632-41e2-8d4e-77e2dd8f69a7.PNG">
 
-* Value: how good a given action or a given state is for the agent
+
+* Value Functions: Value functions are `functions of states`, or of `state-action pairs`, that estimate how good it is for an agent to be in a given state, or how good it is for the agent to perform a given action in a given state.
+
+  * Value Functions BackgrouHow good a given action or a given state is for the agent?
+  * `Since the way an agent acts is influenced by the policy it's following, then we can see that value functions are defined with respect to policies.`
 
 value function: 1. generates expected return / 2. suggests the background that agent consider to act / 3. Policy
 
