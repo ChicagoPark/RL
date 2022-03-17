@@ -78,6 +78,9 @@ reinforcement_learning, deep learning, rl, deepmind
   ### `[3-4] Bellman Optimality Equation`
 
   <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158766756-1556a306-cc26-4c89-9473-ceaa0b54d49a.PNG">
+  
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158768714-bd580855-e0bc-46d8-b005-15f0759646d0.PNG">
+ 
 
 ## 4. Exploration VS Exploitation
 [epsilon greedy strategy]: epsilon means rate for exploration
