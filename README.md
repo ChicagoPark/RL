@@ -37,7 +37,7 @@ reinforcement_learning, deep learning, rl, deepmind
 
       <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753558-03ea5572-6a5e-4528-b02f-78c7f38d8310.PNG">
 
-### [1-2] Policies and Value Functions
+## [2] Policies and Value Functions
 
 * Policy: a function that maps a given state to probabilities of selecting each possible action from that state. We will use the symbol `π` to denote a policy.
   * Policy Background: How probable is it for an agent to select any action from a given state?
@@ -50,14 +50,34 @@ reinforcement_learning, deep learning, rl, deepmind
   * Value Functions BackgrouHow good a given action or a given state is for the agent?
   * `Since the way an agent acts is influenced by the policy it's following, then we can see that value functions are defined with respect to policies.`
 
-value function: 1. generates expected return / 2. suggests the background that agent consider to act / 3. Policy
+  ### [2-1] State-Value Function
 
-State-value function: v(s)
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158764669-0326af5a-a8bf-4bb4-9f19-79bdad1f5b9d.png">
 
-Action-value function: q(s, a) # q means "QUALITY". It is the same notation from Q-table. We can understand it to estimate the quality of (state, action)
+  
+  ### [2-2] Action-Value Function
 
-Optimal action-value function: q*(s, a) # find the maximum value from all the policies in the state.
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158764704-52ab3fbf-9acb-4be4-b5a2-c65f7092db9f.png">
 
+## [3] Optimality
+
+> It is the goal of reinforcement learning algorithms to find a policy that will yield a lot of rewards for the agent if the agent indeed follows that policy. Specifically, reinforcement learning algorithms seek to find a policy that will yield more return to the agent than all other policies.
+
+  ### [3-1] Optimal Policy
+  
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158766715-2ec7b6a0-0eae-4046-8955-a01b29b195c0.PNG">
+  
+  ### [3-2] Optimal State-Value Function
+  
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158766725-929b3981-2107-4936-8b28-157dde36de0a.PNG">
+  
+  ### [3-3] Optimal Action-Value Function
+
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158766745-27380551-383f-45ce-b16a-d2b758c23acd.PNG">
+  
+  ### `[3-4] Bellman Optimality Equation`
+
+  <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158766756-1556a306-cc26-4c89-9473-ceaa0b54d49a.PNG">
 
 ## 4. Exploration VS Exploitation
 [epsilon greedy strategy]: epsilon means rate for exploration
