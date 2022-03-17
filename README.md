@@ -29,13 +29,13 @@ reinforcement_learning, deep learning, rl, deepmind
 
   * [Cumulative Reward: G - Episodic]
 
-    <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753554-dcc2f7f1-fbeb-4382-8c46-a09539c9f5da.PNG">
+    <img width="290" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753554-dcc2f7f1-fbeb-4382-8c46-a09539c9f5da.PNG">
 
 *  Continuing Tasks: There is no limit. That's why it needs Discount Variable
 
     * [Cumulative Reward: G - Continuing]
 
-      <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753558-03ea5572-6a5e-4528-b02f-78c7f38d8310.PNG">
+      <img width="290" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158753558-03ea5572-6a5e-4528-b02f-78c7f38d8310.PNG">
 
 ## [2] Policies and Value Functions
 
