@@ -14,7 +14,7 @@ reinforcement_learning, deep learning, rl, deepmind
 
 <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158747811-1898ac27-5b67-4a52-807c-d0e1d39dcab2.PNG">
 
-* Agent: Decision Maker by interacting with the environment sequentially over time.
+* Agent: Decision Maker interacting with the environment sequentially over time.
   * Agent goal in MDP: Maximize the expected culmulative rewards based on the policy.
 * Environment: According to the MDP model, it decides the next state(s') and reward(r).
 * State: Represent the situation from environment
@@ -48,7 +48,7 @@ reinforcement_learning, deep learning, rl, deepmind
 
 * Value Functions: Value functions are `functions of states`, or of `state-action pairs`, that estimate how good it is for an agent to be in a given state, or how good it is for the agent to perform a given action in a given state.
 
-  * Value Functions BackgrouHow good a given action or a given state is for the agent?
+  * Value Functions Background: How good a given action or a given state is for the agent?
   * `Since the way an agent acts is influenced by the policy it's following, then we can see that value functions are defined with respect to policies.`
 
   ### [2-1] State-Value Function
