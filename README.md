@@ -82,13 +82,24 @@ reinforcement_learning, deep learning, rl, deepmind
   
   <img width="550" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158768714-bd580855-e0bc-46d8-b005-15f0759646d0.PNG">
  
+ `once we have our optimal Q-function q* we can determine the optimal policy by applying a reinforcement learning algorithm to find the action that maximizes q* for each state.`
+ 
+ 
+## [4] Q-learning
+> * What is Q-learning?
+>   * Q-learning is to find the optimal policy by learning the optimal Q-values for each state-action pair `in a Markov Decision Process`.
 
-## 4. Exploration VS Exploitation
+### [4-1] Value Iteration
+> The `Q-learning algorithm iteratively updates the Q-values` for each state-action pair `using the Bellman equation` `until the Q-function converges` to the `optimal Q-function, q*`. This approach is called value iteration. To see exactly how this happens, let's set up an example, appropriately called The Lizard Game.
+
+
+
+## -4. Exploration VS Exploitation
 [epsilon greedy strategy]: epsilon means rate for exploration
 when epsilon is near 0: exploitation
 when epsilon is near 1: exploration
 
-## 5. Deep Q-learning
+## -5. Deep Q-learning
 
 <img width="450" alt="IMG" src="https://user-images.githubusercontent.com/73331241/158344207-2813e827-77bc-480e-897e-3bf773a88f95.jpeg">
 
