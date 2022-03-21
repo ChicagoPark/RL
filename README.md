@@ -89,6 +89,10 @@ reinforcement_learning, deep learning, rl, deepmind
 > * What is Q-learning?
 >   * Q-learning is to find the optimal policy by learning the optimal Q-values for each state-action pair `in a Markov Decision Process`.
 
+```bash
+Chicago's guess in Q-learning flow: Overall policy -> Q-learning -> Find the optimal policy
+```
+
 ### [4-1] Value Iteration
 > The `Q-learning algorithm iteratively updates the Q-values` for each state-action pair `using the Bellman equation` `until the Q-function converges` to the `optimal Q-function, q*`. This approach is called value iteration. To see exactly how this happens, let's set up an example, appropriately called The Lizard Game.
 
