@@ -96,6 +96,15 @@ Chicago's guess in Q-learning flow: Overall policy -> Q-learning -> Find the opt
 ### [4-1] Value Iteration
 > The `Q-learning algorithm iteratively updates the Q-values` for each state-action pair `using the Bellman equation` `until the Q-function converges` to the `optimal Q-function, q*`. This approach is called value iteration. To see exactly how this happens, let's set up an example, appropriately called The Lizard Game.
 
+### [4-2] Epsilon Greedy Strategy
+> Q-learning is Choosing Actions With An Epsilon Greedy Strategy. As the agent learns more about the environment, at the start of each new episode, episode will decay by some rate that we set so that the likelihood of exploration becomes less and less probable as the agent learns more and more about the environment.
+
+>   Epsilon: Exploration rate
+
+> * Algorithm
+>   * To determine whether the agent will choose exploration or exploitation at each time step, we generate a random number between 0 and 1. `If this number is greater than epsilon, then the agent will choose its next action via exploitation`, i.e. it will choose the action with the highest Q-value for its current state from the Q-table. Otherwise, its next action will be chosen via exploration, i.e. randomly choosing its action and exploring what happens in the environment.
+
+
 
 
 ## -4. Exploration VS Exploitation
